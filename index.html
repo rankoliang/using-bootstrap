@@ -39,7 +39,10 @@
           <div
             class="d-none d-lg-flex flex-column align-self-stretch justify-content-around"
           >
-            <a href="#" class="text-white text-decoration-none">
+            <a
+              href="#"
+              class="text-white text-decoration-none font-weight-bold"
+            >
               <div class="weather">
                 <i class="fas fa-cloud-moon"></i>
                 66° New York City, NY >
@@ -69,7 +72,11 @@
                 >Subscribe ></a
               >
             </li>
-            <li><i class="fas fa-bars d-lg-none"></i></li>
+            <li>
+              <i
+                class="fas fa-bars d-lg-none m-0 d-flex aling-items-center"
+              ></i>
+            </li>
           </ul>
         </div>
         <nav class="d-none d-lg-block py-3 px-2">
@@ -105,6 +112,22 @@
             </li>
             <li class="nav-item">
               <a href="#">Weather</a>
+            </li>
+            <li class="nav-item">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control border-0 search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  aria-describedby="search-form"
+                />
+                <div class="input-group-append">
+                  <i
+                    class="fas fa-search input-group-text border-0 d-flex align-items-center bg-white"
+                  ></i>
+                </div>
+              </div>
             </li>
           </ul>
         </nav>

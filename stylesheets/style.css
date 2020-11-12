@@ -13,7 +13,7 @@ body {
 }
 
 .bg-nw-red {
-  background-color: #f72210;
+  background-color: #f72210 !important;
 }
 
 .text-nw-red {

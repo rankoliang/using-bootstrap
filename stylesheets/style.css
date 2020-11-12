@@ -88,18 +88,41 @@ article .summary {
   bottom: 0;
   left: 0;
   line-height: 1rem;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.9);
+  font-size: 17px;
+  text-transform: uppercase;
 }
 
 .top-story h4 {
   font-size: 22px;
 }
 
+.font-normal {
+  font-style: normal;
+}
+
+.opinion-aside {
+  flex: 1;
+}
+
+.opinion-aside a {
+  color: black;
+  font-size: 17px;
+}
+
+.opinion-aside a:hover {
+  text-decoration-color: #f72210;
+}
+
+.opinion-aside cite {
+  font-size: 14px;
+}
+
 @media (max-width: 992px) {
   header .display-3 {
     font-size: 1.5rem;
   }
-  
+
   article h4 {
     font-size: 20px;
   }

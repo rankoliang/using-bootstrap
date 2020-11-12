@@ -140,6 +140,10 @@ article h4 {
   color: #3581f4;
 }
 
+.article-small h5 {
+  font-size: 17px;
+}
+
 @media (max-width: 992px) {
   header .display-3 {
     font-size: 1.5rem;

@@ -148,6 +148,15 @@ article h4 {
   object-fit: cover;
 }
 
+.socials {
+  font-size: 26px;
+}
+
+.socials > * {
+  margin-left: 0.1em;
+  margin-right: 0.1em;
+}
+
 @media (max-width: 992px) {
   header .display-3 {
     font-size: 1.5rem;
